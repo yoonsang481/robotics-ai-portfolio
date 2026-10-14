@@ -179,7 +179,7 @@ Ubuntu PC
 [Future Drive GitHub 바로가기](https://github.com/Centaucyan/Future_drive_E)
 
 ![Future Drive hkit4](images/future-drive.jpg)
-🎥 [Future Drive hkit4 시연 영상 보기](videos/future-drive-demo.mp4)
+🎥 [Future Drive hkit4 시연 영상 보기](https://raw.githubusercontent.com/yoonsang481/robotics-ai-portfolio/main/videos/future-drive-demo.mp4)
 
 ## 추가 실습 경험
 
