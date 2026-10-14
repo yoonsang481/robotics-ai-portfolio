@@ -1,8 +1,4 @@
 
-# AI & Robotics Software Developer
-
-안녕하세요! 로봇 소프트웨어와 인공지능 기술을 공부하고 있는 개발자 정윤상입니다.
-
 # 정윤상 | ROS 2 & AI Robotics Software Developer
 
 ROS 2 기반 모바일 로봇의 구동 제어, 센서 연동 및 SLAM 환경을 구축한 경험이 있습니다.  
