@@ -161,11 +161,11 @@ Ubuntu PC
 - ROS 2 Humble과 Gazebo를 활용한 협동로봇 시뮬레이션 실습
 - RGB-D 카메라를 이용한 물체 인식 및 Pick & Place 과정 학습
 - 로봇팔의 인식·접근·파지·이동 과정 이해
-- 
-### 4. ROS 2 LiDAR 좌표계 정합
-- RPLiDAR 센서와 TF2 좌표계 설정
-- RViz를 활용한 센서 데이터 시각화 및 방향 보정
+  
+### ROS 2 LiDAR 좌표계 정합 실습
 
+- RPLIDAR 센서와 TF2 좌표계 설정
+- RViz2를 활용한 센서 데이터 시각화 및 방향 보정
   
 
 ## 관심 분야
