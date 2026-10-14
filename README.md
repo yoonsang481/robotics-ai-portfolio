@@ -102,6 +102,10 @@ Target Modules: q_proj, k_proj, v_proj, o_proj
 | 파라미터 정확도 | 50% | 100% |
 | 완전 일치 | 30% | 65% |
 
+#### 버전별 모델 성능 비교
+
+![ARION 버전별 모델 성능 비교](images/arion-model-comparison.png)
+
 또한 시스템 프롬프트의 반복 규칙을 정리하여 입력 토큰을 **5,353개에서 3,065개로 약 42.7% 줄였습니다.**
 
 #### 기술 스택
