@@ -16,13 +16,32 @@
 - Function Schema 및 LLM 파인튜닝 활용
 - [프로젝트 GitHub](https://github.com/ssjs545688-stack/Drone-VLA-VLM-Control-Project-Arion-)
 
-### 2. UR8 협동로봇 Pick & Place
+  
+### 2. Future Drive - ROS 2 기반 자율주행 모빌리티
+
+**담당 파트:** EP (Embedded Platform)
+
+**기술 스택:** ROS 2 Humble, Python, C/C++, RPLiDAR, Cartographer, Nav2, RViz2
+
+**주요 개발 내용**
+- 4WD 모터 및 엔코더 기반 차량 제어 시스템
+- RPLiDAR 센서 연동 및 TF 좌표계 설정
+- Cartographer 기반 2D SLAM 지도 생성
+- Nav2 기반 자율주행 시스템 구성
+- ROS 2 토픽 및 오도메트리 연동
+
+[Future Drive GitHub 바로가기](https://github.com/Centaucyan/Future_drive_E)
+  
+
+### 3. UR8 협동로봇 Pick & Place
 - RGB-D 카메라를 이용한 물병 인식 및 파지 시뮬레이션
 - ROS 2 Humble 및 Gazebo 활용
 
-### 3. ROS 2 LiDAR 좌표계 정합
+### 4. ROS 2 LiDAR 좌표계 정합
 - RPLiDAR 센서와 TF2 좌표계 설정
 - RViz를 활용한 센서 데이터 시각화 및 방향 보정
+
+  
 
 ## 관심 분야
 - Robotics Software Engineering
