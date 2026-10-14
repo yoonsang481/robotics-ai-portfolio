@@ -99,19 +99,62 @@ Target Modules: q_proj, k_proj, v_proj, o_proj
 
 ### 2. Future Drive - ROS 2 기반 자율주행 모빌리티
 
-**담당 파트:** EP (Embedded Platform)
+### 2. Future Drive — ROS 2 기반 모바일 로봇
 
-**기술 스택:** ROS 2 Humble, Python, C/C++, RPLiDAR, Cartographer, Nav2, RViz2
+**프로젝트 유형:** 팀 프로젝트  
+**담당 역할:** hkit4 EP(Embedded Platform)  
+**진행 기간:** 2026.09 – 2026.10
 
-**주요 개발 내용**
-- 4WD 모터 및 엔코더 기반 차량 제어 시스템
-- RPLiDAR 센서 연동 및 TF 좌표계 설정
-- Cartographer 기반 2D SLAM 지도 생성
-- Nav2 기반 자율주행 시스템 구성
-- ROS 2 토픽 및 오도메트리 연동
+팀에서 hkit4 모바일 로봇의 구동 제어와 ROS 2 연동을 담당했습니다. Arduino UNO 기반 4WD 차량에 ROS 2 명령을 전달하고, RPLIDAR 데이터를 이용해 Cartographer SLAM 지도를 생성하는 환경을 구성했습니다.
+
+#### 담당 업무
+
+- Arduino UNO와 L293D Motor Shield를 이용한 4WD 모터 제어
+- 전진·후진·좌회전·우회전·정지 명령 처리
+- 일정 시간 명령이 없을 때 차량을 정지시키는 안전 정지 로직 구성
+- ROS 2 `/cmd_vel`을 Arduino의 `W/S/A/D/X` 명령으로 변환하는 시리얼 브리지 구성
+- 엔코더 데이터를 기반으로 `/odom`과 `odom → base_link` TF를 발행하는 구조 점검
+- RPLIDAR C1의 `/scan` 토픽과 `laser_frame` 구성
+- Cartographer용 launch 및 Lua 설정 구성
+- LiDAR와 TF를 이용한 2D SLAM 지도 생성
+- Raspberry Pi와 Ubuntu PC 사이의 ROS 2 통신 환경 구성
+- ROS Domain ID, 시리얼 장치, TF 및 센서 통신 문제 분석
+
+#### hkit4 시스템 구성
+
+```text
+Arduino UNO + L293D Motor Shield
+    ├── 4WD 모터 제어
+    └── 엔코더 데이터
+             ↕ Serial
+Raspberry Pi + ROS 2 Humble
+    ├── cmd_vel_serial_bridge
+    ├── /cmd_vel
+    ├── /odom
+    ├── TF
+    └── RPLIDAR C1 → /scan
+             ↕ ROS 2 Network
+Ubuntu PC
+    ├── Cartographer 2D SLAM
+    └── RViz2
+```
+
+#### 기술 스택
+
+`ROS 2 Humble` `Python` `C/C++` `Arduino UNO`  
+`Raspberry Pi` `L293D Motor Shield` `RPLIDAR C1`  
+`Cartographer` `RViz2` `Docker` `Git`
+
+#### 프로젝트를 통해 얻은 경험
+
+- Arduino 기반 구동부와 ROS 2 사이의 통신 구조 구현
+- `/cmd_vel`, `/odom`, `/scan`, TF로 연결되는 로봇 데이터 흐름 이해
+- 실제 모바일 로봇의 모터·LiDAR·시리얼 통신 문제 분석
+- Cartographer 설정과 TF 구조를 활용한 2D 지도 생성 경험
 
 [Future Drive GitHub 바로가기](https://github.com/Centaucyan/Future_drive_E)
-![Future Drive](images/future-drive.jpg)
+
+![Future Drive hkit4](images/future-drive.jpg)
 
 ### 3. UR8 협동로봇 Pick & Place
 - RGB-D 카메라를 이용한 물병 인식 및 파지 시뮬레이션
