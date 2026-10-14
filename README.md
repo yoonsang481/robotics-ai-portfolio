@@ -3,6 +3,26 @@
 
 안녕하세요! 로봇 소프트웨어와 인공지능 기술을 공부하고 있는 개발자 정윤상입니다.
 
+# 정윤상 | ROS 2 & AI Robotics Software Developer
+
+ROS 2 기반 모바일 로봇의 구동 제어, 센서 연동 및 SLAM 환경을 구축한 경험이 있습니다.  
+Arduino와 Raspberry Pi를 활용한 임베디드 로봇 제어부터 경량 LLM 데이터셋 구축과 LoRA 파인튜닝까지 경험하며 로봇과 AI를 연결하는 개발 역량을 쌓고 있습니다.
+
+현재 **ROS 2 기반 로봇 소프트웨어 개발자**, **자율주행 모바일 로봇 개발자**, **로봇 시스템 통합 개발자**를 목표로 하고 있습니다.
+
+## 교육
+
+**한국IT교육원 — 융합 AI 미래형 모빌리티(로봇·ADAS)**  
+2026.04.08 – 2026.10.16
+
+- ROS 2 기반 로봇 제어 및 통신
+- 모바일 로봇과 LiDAR 센서 연동
+- Cartographer를 활용한 2D SLAM
+- 로봇 제어용 자연어 데이터셋 및 LoRA 파인튜닝
+- Python, C/C++ 및 임베디드 장치 제어
+
+[GitHub 프로필](https://github.com/yoonsang481)
+
 ## 기술 스택
 - Languages: Python, C/C++
 - Robotics: ROS 2, Gazebo, RViz, TF2
