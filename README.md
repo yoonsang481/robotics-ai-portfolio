@@ -198,4 +198,8 @@ Ubuntu PC
 - Robotics Software Engineering
 - Autonomous Systems
 - AI-based Robot Control
-  
+
+## 연락처
+
+- Email: [yoonsang481@gmail.com](mailto:yoonsang481@gmail.com)
+- GitHub: [github.com/yoonsang481](https://github.com/yoonsang481)
