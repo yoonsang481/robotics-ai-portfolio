@@ -35,6 +35,13 @@ Arduino와 Raspberry Pi를 활용한 임베디드 로봇 제어부터 경량 LLM
 
 ## 주요 프로젝트
 
+## 프로젝트 한눈에 보기
+
+| 프로젝트 | 담당 역할 | 핵심 기술 | 주요 결과 |
+|---|---|---|---|
+| [ARION](https://github.com/ssis545688-stack/Drone-VLA-VLM-Control-Project-Arion-) | 데이터셋 구축·Qwen LoRA | Qwen2.5-3B, LoRA, JSON Schema | 데이터셋 200→430건, 명령·파라미터 정확도 100% |
+| [Future Drive](https://github.com/Centaucyan/Future_drive_E) | hkit4 EP | ROS 2, Arduino, RPLIDAR, Cartographer | 4WD 제어·ROS 2 연동·2D SLAM 지도 생성 |
+
 ### 1. ARION - AI 기반 드론 제어
 ### ARION — 자연어 명령 기반 드론 제어
 
