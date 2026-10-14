@@ -39,7 +39,7 @@
 - ROS 2 토픽 및 오도메트리 연동
 
 [Future Drive GitHub 바로가기](https://github.com/Centaucyan/Future_drive_E)
-  
+![Future Drive](images/future-drive.jpg)
 
 ### 3. UR8 협동로봇 Pick & Place
 - RGB-D 카메라를 이용한 물병 인식 및 파지 시뮬레이션
