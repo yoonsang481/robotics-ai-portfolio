@@ -24,7 +24,7 @@ Arduino와 Raspberry Pi를 활용한 임베디드 로봇 제어부터 경량 LLM
 - Robotics: ROS 2 Humble, Gazebo, RViz2, TF2, Cartographer
 - AI: PyTorch, Transformers, Qwen2.5-3B, LoRA, JSON Schema
 - Embedded: Arduino UNO, Raspberry Pi, Serial Communication
-- 
+  
 ### Tech Stack Icons
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
