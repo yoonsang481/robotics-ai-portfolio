@@ -97,8 +97,6 @@ Target Modules: q_proj, k_proj, v_proj, o_proj
 
 [ARION 프로젝트 GitHub 바로가기](https://github.com/ssis545688-stack/Drone-VLA-VLM-Control-Project-Arion-)
 
-### 2. Future Drive - ROS 2 기반 자율주행 모빌리티
-
 ### 2. Future Drive — ROS 2 기반 모바일 로봇
 
 **프로젝트 유형:** 팀 프로젝트  
