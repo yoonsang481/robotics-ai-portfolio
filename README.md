@@ -154,10 +154,14 @@ Ubuntu PC
 
 ![Future Drive hkit4](images/future-drive.jpg)
 
-### 3. UR8 협동로봇 Pick & Place
-- RGB-D 카메라를 이용한 물병 인식 및 파지 시뮬레이션
-- ROS 2 Humble 및 Gazebo 활용
+## 추가 실습 경험
 
+### UR8 협동로봇 Pick & Place 실습
+
+- ROS 2 Humble과 Gazebo를 활용한 협동로봇 시뮬레이션 실습
+- RGB-D 카메라를 이용한 물체 인식 및 Pick & Place 과정 학습
+- 로봇팔의 인식·접근·파지·이동 과정 이해
+- 
 ### 4. ROS 2 LiDAR 좌표계 정합
 - RPLiDAR 센서와 TF2 좌표계 설정
 - RViz를 활용한 센서 데이터 시각화 및 방향 보정
